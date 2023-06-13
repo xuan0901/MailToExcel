@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>mailtoexcel</id>
+    <version>1.0.0</version>
+    <authors>mailtoexcel</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Azure.ResourceManager.Storage" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="EPPlus" version="6.2.4" exclude="Build,Analyzers" />
+        <dependency id="HtmlAgilityPack" version="1.11.46" exclude="Build,Analyzers" />
+        <dependency id="MsgReader" version="5.2.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\chenxuan\Projects\mail1\mailtoexcel\mailtoexcel\bin\Debug\netcoreapp3.1\mailtoexcel.runtimeconfig.json" target="lib\netcoreapp3.1\mailtoexcel.runtimeconfig.json" />
+    <file src="C:\Users\chenxuan\Projects\mail1\mailtoexcel\mailtoexcel\bin\Debug\netcoreapp3.1\mailtoexcel.dll" target="lib\netcoreapp3.1\mailtoexcel.dll" />
+  </files>
+</package>
